@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0; /* Светло-серый фон */
+}
+
+h1 {
+  color: #333; /* Темно-серый цвет заголовка */
+}
+
+#shape-choice label {
+  margin-right: 10px;
+  display: inline-block; /* Выравнивание меток рядом */
+  background-color: #e0e0e0; /* Серый фон для меток */
+  padding: 5px 10px; /* Добавление внутренних отступов */
+  border-radius: 5px; /* Скругление углов */
+  cursor: pointer; /* Изменение курсора при наведении */
+}
+
+#shape-choice input[type="radio"] {
+  margin-right: 5px; /* Отступ справа от радиокнопки */
+}
+
+#inputs {
+  margin-top: 20px; /* Отступ сверху после выбора формы */
+}
+
+#inputs label {
+  display: block; /* Размещение меток по вертикали */
+  margin-bottom: 5px; /* Небольшой отступ снизу для каждой метки */
+}
+
+#inputs input{
+  width: 100%; /* Полная ширина для полей ввода */
+  padding: 5px; /* Внутренние отступы для удобства ввода */
+  margin-bottom: 10px; /* Отступ снизу для каждого поля ввода */
+  border: 1px solid #ccc; /* Параметры рамки */
+  border-radius: 3px; /* Скругление углов полей ввода */
+}
+
+button {
+  background-color: #007bff; /* Голубой фон кнопки */
+  color: white; /* Белый текст кнопки */
+  border: none; /* Убираем стандартную рамку */
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  border-radius: 5px; /* Скругление углов кнопки */
+  cursor: pointer; /* Изменение курсора при наведении */
+}
+
+button:hover {
+  background-color: #0056b3; /* Темнее при наведении */
+}
+
+#result {
+  margin-top: 20px; /* Отступ сверху для результата */
+  font-weight: bold; /* Жирный шрифт для результата */
+}
